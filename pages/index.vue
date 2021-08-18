@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto flex">
     <h1 class="text-white self-center mx-auto text-7xl">
-      COMING SOON 🚧
+      COMING SOON 🐶
     </h1>
   </div>
 </template>
