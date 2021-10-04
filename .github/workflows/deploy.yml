@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  ci:
+  lint-check:
     runs-on: ${{ matrix.os }}
 
     strategy:
