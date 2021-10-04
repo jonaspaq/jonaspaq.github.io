@@ -1,11 +1,11 @@
 <template>
   <div class="main-container w-full h-full bg-cover mx-auto flex flex-col relative text-white">
-    <video autoplay muted loop class="w-screen absolute object-fill h-screen z-0">
+    <video autoplay muted loop class="w-screen absolute object-cover h-screen z-0">
       <source src="~/static/background/coming-soon-bg.mp4" type="video/mp4">
       <!-- https://www.pexels.com/video/digital-formation-of-a-dna-in-an-animated-presentation-3191572/ -->
       Your browser does not support the video tag.
     </video>
-    <div class="w-full h-full absolute inset-0 bg-black bg-opacity-75">
+    <div class="w-full h-full absolute inset-0 bg-black bg-opacity-80">
       <span class="hidden">background opacity</span>
     </div>
     <div class="m-auto z-10 text-center">
