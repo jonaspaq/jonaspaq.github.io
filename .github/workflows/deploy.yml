@@ -1,4 +1,4 @@
-name: Lint check
+name: Deploy gh-pages
 
 on:
   push:
