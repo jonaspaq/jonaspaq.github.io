@@ -13,11 +13,11 @@
         <h1 class="text-4xl md:text-7xl">
           Coming soon
         </h1>
-        <p class="mt-2">
+        <p class="mt-5">
           Personal page is still under development.
         </p>
       </div>
-      <a class="border hover:bg-white hover:text-black duration-500 w-max mx-auto p-4 z-10 mt-8 block" href="https://media-exp1.licdn.com/media/AAYUBAR3AAgAAQAAAAAAADIDcMYD3UctSZ2lq1Ohvhr6lg.png" target="_blank">
+      <a class="border hover:bg-white hover:text-black duration-500 w-max mx-auto p-4 z-10 mt-8 block" href="/files/Paquibot-Resume.pdf" target="_blank">
         View resume
       </a>
     </div>
