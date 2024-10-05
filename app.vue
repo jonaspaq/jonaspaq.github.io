@@ -4,6 +4,11 @@
     <AppHeader />
 
     <CompanyLogos />
+    <ExperienceHighlights />
+
+    <ConnectWithMe />
+
+    <Copyrights />
   </div>
 </template>
 

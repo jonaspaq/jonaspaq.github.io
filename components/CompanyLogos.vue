@@ -1,6 +1,6 @@
 <template>
-    <div class="mt-24 lg:mt-44">
-        <div class="text-xl font-medium text-zinc-500 text-center">
+    <section class="mt-24 lg:mt-44">
+        <div class="text-xl lg:text-2xl font-medium text-zinc-500 text-center">
             Companies I have worked with.
         </div>
         <div class="flex flex-row flex-wrap justify-center items-center mt-10">
@@ -14,5 +14,5 @@
                 <img src="/images/nexseed.png" class="w-32 md:w-56" alt="Nexseed">
             </div>
         </div>
-    </div>
+    </section>
 </template>

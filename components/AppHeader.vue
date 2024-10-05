@@ -6,12 +6,12 @@ function buttonClicked() {
 </script>
 
 <template>
-    <div>
+    <section>
         <div class="flex flex-row flex-wrap items-center justify-center mt-20">
             <div class="w-full md:w-9/12">
                 <div class="text-4xl md:text-7xl text-center lg:text-left">
                     <p>
-                        Hi, I’m <span class="text-primary font-medium">{Jonas}</span>,
+                        Hi, I'm <span class="text-primary font-medium">{Jonas}</span>,
                     </p>
                      a software developer.
                 </div>
@@ -27,5 +27,5 @@ function buttonClicked() {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
