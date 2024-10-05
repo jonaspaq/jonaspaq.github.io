@@ -1,4 +1,9 @@
 module.exports = {
-  corePlugins: {
+    theme: {
+      extend: {
+        colors: {
+          'primary': '#07EA9A',
+        },
+      }
+    }
   }
-}
