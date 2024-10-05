@@ -7,7 +7,7 @@ services:
     working_dir: /var/www
     volumes:
       - .:/var/www
-    command: npm run dev
+    command: npm run dev --host
     networks: 
       - app-network
   
