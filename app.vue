@@ -1,7 +1,15 @@
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline text-red-600">
-      Hello world!
-    </h1>
+  <div class="xl:container border-0 border-blue-500 mx-auto">
+    <AppNavbar />
+    <AppHeader />
+
+    <CompanyLogos />
   </div>
 </template>
+
+<style>
+body {
+  background-color: #0B0B0B;
+  color: white;
+}
+</style>
