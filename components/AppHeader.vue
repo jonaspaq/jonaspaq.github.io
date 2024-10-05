@@ -1,8 +1,5 @@
 <script setup>
-
-function buttonClicked() {
-    alert("Hello, world!");
-}
+const linkedIn = ref('https://www.linkedin.com/in/jonaspaq/');
 </script>
 
 <template>
@@ -21,9 +18,9 @@ function buttonClicked() {
                     <div class="bg-primary border-4 blur-2xl p-10 rounded-full w-36 h-36 absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
 
                     </div>
-                    <button @click="buttonClicked" class="bg-zinc-900 py-3 px-10 z-20 relative rounded-sm hover:bg-opacity-90">
+                    <a :href="linkedIn" target="_blank" class="bg-zinc-900 py-3 px-10 z-20 relative rounded-sm hover:bg-opacity-90 cursor-pointer transition">
                         Contact me
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

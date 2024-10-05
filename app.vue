@@ -9,6 +9,8 @@
     <ConnectWithMe />
 
     <Copyrights />
+
+    <ScrollToTopButton />
   </div>
 </template>
 
